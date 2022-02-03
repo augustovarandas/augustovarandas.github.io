@@ -1,52 +1,83 @@
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-
-h2 {
-font-family: 'Source Sans Pro', sans-serif;
-color: rgb(255, 255, 255);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
-h3 {
-font-family: 'Source Sans Pro', sans-serif;
-color: rgb(255, 255, 255);
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 p, li {
-font-family: 'Source Sans 3', sans-serif;
-color: rgb(255, 255, 255);
-font-size: x-large;
+  font-family: 'Source Sans 3', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
 }
 
 #menu ul {
-text-align: center;
-margin: 0px;
-list-style: none;
+  text-align: center;
+  margin: 0px;
+  list-style: none;
 }
 
 #menu ul li {display: inline; }
 
 body {
-background-color:  rgb(45, 45, 53)
+  background-color:  rgb(45, 45, 53)
 }
 
-#midiasSociais ul {
-text-align: left;
-margin-left: -40px;
-margin-top: 20px;
-list-style: none;
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(41, 230, 173);
+}
+
+a:hover {
+  color:rgb(230, 95, 41);
+  font-size: 120%;
+}
+
+footer {
+ text-align: right;
+ margin: 0%;
+}
+
+#img {
+  position: left;
+  border-radius: 30%;
+  border: 2px solid;
+  border-color: rgb(41, 230, 173);
+  padding: 1px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+#header-name {
+  margin-top: -200px;
+  margin-left: 320px;
+  float: left;
+  font-size: 180%;
+}
+
+#midiasSociais {
+  height: 90px;
+  width: 3000px;
+  margin-left: 280px;
+  margin-top: -120px;  
+  float: left;
+  text-align: left;
 }
 
 #midiasSociais ul li {display: inline; }
 
-a:link, a:visited {
-text-decoration: none;
-color: rgb(41, 230, 173);
+#header-description {
+  margin-left: 320px;
+  margin-top: -80px;  
+  float: left;
 }
 
-a:hover {
-color:rgb(230, 95, 41);
-font-size: 120%;
+.colorwhite {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -9px;
 }
