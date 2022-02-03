@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+h2 {
+font-family: 'Source Sans Pro', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+h3 {
+font-family: 'Source Sans Pro', sans-serif;
+color: rgb(255, 255, 255);
+}
+
+p, li {
+font-family: 'Source Sans 3', sans-serif;
+color: rgb(255, 255, 255);
+font-size: x-large;
+}
+
+#menu ul {
+text-align: center;
+margin: 0px;
+list-style: none;
+}
+
+#menu ul li {display: inline; }
+
+body {
+background-color:  rgb(45, 45, 53)
+}
+
+#midiasSociais ul {
+text-align: left;
+margin-left: -40px;
+margin-top: 20px;
+list-style: none;
+}
+
+#midiasSociais ul li {display: inline; }
+
+a:link, a:visited {
+text-decoration: none;
+color: rgb(41, 230, 173);
+}
+
+a:hover {
+color:rgb(230, 95, 41);
+font-size: 120%;
+}
