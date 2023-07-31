@@ -1,30 +1,96 @@
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+  background-color:  rgb(45, 45, 53);
   color: rgb(255, 255, 255);
-  text-align: center;
 }
 
-h2 {
+h1, h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgb(255, 255, 255);
 }
 
 p, li {
   font-family: 'Source Sans 3', sans-serif;
-  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+#img {
+  position: left;
+  border-radius: 30%;
+  border: 2px solid;
+  border-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+#header-name {
+  margin-top: -240px;
+  margin-left: 220px;
+  float: left;
+  font-size: 180%;
+}
+
+.social-media-buttons {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.social-media-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  outline: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+  display: grid;
+  place-items: center;
+}
+
+.social-media-button:hover {
+  outline-offset: 3px;
+  transition: all 0.3s;
+}
+
+.social-media-button:hover:nth-child(1) {
+  background:  radial-gradient(
+      circle at 30% 107%, #fdf497 0%, 
+      #fdf497 5%, #fd5949 45%,
+      #d6249f 60%,#285AEB 90%
+  ); 
+}
+
+.social-media-button:hover:nth-child(2) {
+  background-color: #1D9BF0;
+}
+
+.social-media-button:hover:nth-child(3) {
+  background-color: #0A66C2;
+}
+
+.social-media-button:hover:nth-child(4) {
+  background-image: url("./images/icons/github-hover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+#header-description {
+  margin-left: 110px;
+  margin-top: -30px;  
+  float: left;
   font-size: x-large;
 }
 
 #menu ul {
   text-align: center;
-  margin: 0px;
-  list-style: none;
 }
 
-#menu ul li {display: inline; }
-
-body {
-  background-color:  rgb(45, 45, 53)
+#menu ul li {
+  display: inline;
+  text-align: center;
 }
 
 a:link, a:visited {
@@ -38,46 +104,6 @@ a:hover {
 }
 
 footer {
- text-align: right;
- margin: 0%;
-}
-
-#img {
-  position: left;
-  border-radius: 30%;
-  border: 2px solid;
-  border-color: rgb(41, 230, 173);
-  padding: 1px;
-  margin-top: 20px;
-  width: 300px;
-}
-
-#header-name {
-  margin-top: -200px;
-  margin-left: 320px;
-  float: left;
-  font-size: 180%;
-}
-
-#midiasSociais {
-  height: 90px;
-  width: 3000px;
-  margin-left: 280px;
-  margin-top: -120px;  
-  float: left;
-  text-align: left;
-}
-
-#midiasSociais ul li {display: inline; }
-
-#header-description {
-  margin-left: 320px;
-  margin-top: -80px;  
-  float: left;
-}
-
-.colorwhite {
-  width: 30px;
-  height: 30px;
-  margin-bottom: -9px;
+  text-align: right;
+  margin: 0%;
 }
