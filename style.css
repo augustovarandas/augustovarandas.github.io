@@ -12,17 +12,17 @@ p, li {
   font-size: large;
 }
 
-#img {
+.img {
   position: left;
   border-radius: 30%;
   border: 2px solid;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(41, 230, 173);;
   padding: 1px;
   margin-top: 20px;
   width: 200px;
 }
 
-#header-name {
+.header-name {
   margin-top: -240px;
   margin-left: 220px;
   float: left;
@@ -77,18 +77,18 @@ p, li {
   background-size: cover
 }
 
-#header-description {
+.header-description {
   margin-left: 110px;
   margin-top: -30px;  
   float: left;
   font-size: x-large;
 }
 
-#menu ul {
+.menu ul {
   text-align: center;
 }
 
-#menu ul li {
+.menu ul li {
   display: inline;
   text-align: center;
 }
